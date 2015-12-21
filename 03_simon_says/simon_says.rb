@@ -20,9 +20,8 @@ end
 
 def titleize (str)
 	result=str.split(/[, \.?!]+/)
-	if (result.size > 1) 
-		result.map! {|elem| elem.capitalize}
-	end
+	result.map! {|elem| elem.capitalize!}
+	
 # this don't work correcrly!
-	result.join(' ').capitalize
+	result.join(' ')
 end
