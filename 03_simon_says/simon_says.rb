@@ -7,7 +7,7 @@ def shout (string)
 end
 
 def repeat (string, count = 2)
-	((string + " ")*count).chop
+	((string + " ")*count).strip
 end
 
 def start_of_word (str, count)
