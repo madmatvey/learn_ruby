@@ -93,4 +93,8 @@ describe "Simon says" do
     end
   end
 
+<<<<<<< HEAD
 end
+=======
+end
+>>>>>>> pb/master

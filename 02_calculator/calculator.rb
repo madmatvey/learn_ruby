@@ -16,4 +16,16 @@ end
 
 def power(one,two)
 	one ** two
+<<<<<<< HEAD
 end
+=======
+end
+
+def factorial(n)
+	if(n != 0) 
+		return n.downto(1).inject(:*)
+	else
+		return 1
+	end
+end
+>>>>>>> pb/master
