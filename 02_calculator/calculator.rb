@@ -16,6 +16,9 @@ end
 
 def power(one,two)
 	one ** two
+<<<<<<< HEAD
+end
+=======
 end
 
 def factorial(n)
@@ -25,3 +28,4 @@ def factorial(n)
 		return 1
 	end
 end
+>>>>>>> pb/master
