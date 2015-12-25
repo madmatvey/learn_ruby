@@ -82,6 +82,3 @@ DEPENDENCIES
   rake
   rspec (~> 2.0)
   rspec-rails (~> 2.14)
-
-BUNDLED WITH
-   1.11.2
