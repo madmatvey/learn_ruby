@@ -76,7 +76,21 @@ class RPNCalculator
   	end
   	def tokens (expr)
   		@expr=expr
-  		@expr.split(" ")
+  		calc = []
+  		tokenz.each do |token|
+      		if numeric?(token)
+        		calc.push(token.to_i)
+      		elsif token == "+"
+       			calc.push(:+)
+      		elsif token == "*"
+       			calc.push(:*)
+      		elsif token == "-"
+       			calc.push(:-)
+       		elsif token == "/"
+       			calc.push(:/)		      		
+   			end
+   		end
+  		calc
   	end
 private
   	def tokenz
